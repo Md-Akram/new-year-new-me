@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 80%;
+    /* margin: 30px auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left,
+.right {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-image: url('./images/banner/banner1.png');
+    background-size: cover;
+    background-position: left;
+    height: 80vh;
+}
